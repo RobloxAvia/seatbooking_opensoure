@@ -22,6 +22,11 @@ local seats = {
 		name = "EC";
 		seatsAvailable = 0;
 	};
+	
+	BC = {
+		name = "BC";
+		seatsAvailable = 0;
+	};
 
 	FC = {
 		name = "FC";
