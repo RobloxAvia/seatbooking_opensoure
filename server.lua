@@ -143,7 +143,7 @@ rf.OnServerInvoke = function(usr, event, key, ...)
 						table.insert(bookingList, data)
 						nameUser(usr, usr.Name.." // "..class)
 						seats[class].seatsAvailable = seats[class].seatsAvailable-1
-						re:FireAllClients("updateSeats", seats.EC.seatsAvailable, seats.FC.seatsAvailable)
+						re:FireAllClients("updateSeats", seats.EC.seatsAvailable, seats.BC.seatsAvailable, seats.FC.seatsAvailable)
 						return true
 					else
 						return false
